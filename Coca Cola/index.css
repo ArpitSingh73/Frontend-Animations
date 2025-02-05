@@ -201,7 +201,169 @@ i {
   opacity: 0.6;
 }
 
-/* @media screen and (max-width:500px){
+@media screen and (max-width:500px){
+#nav {
+  height: 70vh;
+  width: 100%;
+  /* background-color: #fff; */
+  /* padding: 0 40px; */
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#nav h1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+i:hover{
+  cursor: pointer;
+}
+i {
+  font-size: 20px;
+  margin-right: 0px;
+}
+#nav-part2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  /* background-color: red; */
+  margin-right: 0px;
+}
+#nav h5 {
+  font-size: 15px;
+
+  text-transform: capitalize;
+}
+
+#nav img {
+  height: 80px;
+}
+
+#line {
+  width: 50%;
+  height: 3px;
+  background-color: red;
+}
+
+
+
 #content {
-  flex-direction: column;}
-} */
+  min-height: calc(100% - 120px);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#left {
+  height: 100%;
+  width: 36%;
+  padding: 160px 100px;
+}
+#right {
+  height: 100%;
+  width: 36%;
+  padding: 320px 140px;
+}
+#center {
+  height: 100%;
+  width: 26%;
+  padding-top: 60px;
+  position: relative;
+}
+
+#left h1 {
+  font-size: 60px;
+  line-height: 60x;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#left h1 span {
+  color: red;
+  font-weight: 300;
+}
+
+#left p {
+  font-size: 15px;
+  width: 70%;
+  margin-bottom: 50px;
+  line-height: 20px;
+}
+
+#left button {
+  padding: 20px 40px;
+  background-color: red;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#center-bg {
+  height: 80%;
+  width: 100%;
+  /* background-color: blue; */
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  background-image: url("./coca_bg.jpg");
+  background-size: 450%;
+  background-position: 30% 30%;
+  filter: blur(2px);
+}
+
+#content img {
+  /* z-index: 999; */
+  height: 90%;
+  position: absolute;
+  left: 49%;
+  transform: translate(-50%, 0);
+}
+
+#right-elems {
+  width: 300px;
+}
+
+#elem1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid white;
+
+}
+
+
+#elem1 h1{
+  font-size: 22px;
+  font-weight: 600;
+
+}
+
+#elem1 i{
+  font-size: 24px;
+  opacity: 0.6;
+}
+
+#elem2 h1{
+   font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-top: 15px;
+
+}
+
+#elem2 p{
+  font-size: 13px;
+  /* line-height: 10px; */
+  width: 70%;
+  opacity: 0.6;
+}
+}
